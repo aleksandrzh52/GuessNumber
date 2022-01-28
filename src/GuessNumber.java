@@ -26,8 +26,7 @@ public class GuessNumber {
             } else {
                 System.out.println("Загаданное мною число больше.");
             }
-            --max;
-            if (max != 0) {
+            if (--max != 0) {
                 System.out.print("Попробуйте еще раз: ");
             } else {
                 System.out.print("Увы.. Колличество попыток ограниченно.");
